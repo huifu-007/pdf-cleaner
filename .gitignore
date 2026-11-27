@@ -1,0 +1,43 @@
+# 凭据(绝不入库)
+.token
+
+# 构建产物
+build_gui/
+build_cli/
+build_onedir/
+build_onefile/
+build_clidir2/
+dist_gui/
+dist_cli2/
+dist_onefile/
+dist_tmp/
+dist_nk2/
+*.spec
+__pycache__/
+*.pyc
+
+# 打包产物(走 Release 分发, 不进仓库历史)
+pdf_cleaner_gui.exe
+pdf_cleaner.exe
+单文件版/
+pdf_cleaner_gui/
+pdf_cleaner_cli/
+*.zip
+
+# 测试产物(测试脚本运行时生成)
+test_pdfs/
+test_out/
+test_out/
+test_select_out/
+selftest_result.txt
+~pc_started.flag
+*_icon.png
+nuitka*.log
+
+# 工具脚本(仅本地用)
+bench.py
+bench2.py
+make_icon.py
+extract_icon.py
+shot*.py
+shot_*.png
