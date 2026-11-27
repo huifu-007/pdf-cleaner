@@ -23,7 +23,7 @@
 
 | 文件 | 说明 |
 |---|---|
-| `单文件版.zip` | 单个 exe，双击即用（推荐）|
+| `single-file.zip` | 单个 exe，双击即用（推荐）|
 | `pdf_cleaner_gui.zip` | 目录版，启动更快 |
 | `pdf_cleaner_cli.zip` | 命令行版，适合批处理脚本 |
 
